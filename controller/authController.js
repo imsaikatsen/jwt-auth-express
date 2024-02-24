@@ -28,7 +28,7 @@ exports.register = async (req, res) => {
     res.status(500).send("Error during registration");
   }
 };
-
+//login
 exports.login = async (req, res) => {
   const { email, password } = req.body;
 
